@@ -1,0 +1,28 @@
+.canvas{
+    background: #eee;
+    border-style: solid;
+    border-color: black;
+}
+
+.btn{
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+.toolbar {
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3 Column Layout</title>
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/canvas.css">
+    <link href="assets/css/all.css" rel="stylesheet">
+    <script>
+        window.onload = function () {
+            canvas('#draw', {
+                width: 500,
+                height: 300,
+                strokeWidth: 5,
+                strokeColor: "#000000"
+            })
+        };
+    </script>
+</head>
+<body>
+<header class="header"><img src = "assets/img/pngtree-creative-paint-effect-apple-iphonexs-background-effectappleiphonexsbackgrounduniverseplanet-backgrounddream-image_58968.jpg" height = "60px"></header>
+<div class="container">
+    <main class="center column">
+        <article>
+            <h1>Canvas</h1>
+            <canvas id="draw">
+            </canvas>
+            <div>
+                <input type="color" id="color-picker" />
+            </div>
+            <div>
+<!--                <input type="brush" id="brush-picker">-->
+                <input type="range" id="brush-picker" value="5" min="1" max="10">
+            </div>
+            <div class="toolbar" id="toolbar">
+            </div>
+            <p></p>
+        </article>
+    </main>
+    <nav class="left column">
+        <h3>Menu</h3>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="media.html">MEdia</a></li>
+            <li><a href="slider.html">Slider</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="canvas.html">Canvas</a></li>
+        </ul>
+    </nav>
+
+    <div class="right column">
+        <h3>Right heading</h3>
+        <p></p>
+    </div>
+    <div class="push"></div>
+</div>
+
+<div class="footer-wrapper">
+    <footer class="footer"><img src = "assets/img/pngtree-creative-paint-effect-apple-iphonexs-background-effectappleiphonexsbackgrounduniverseplanet-backgrounddream-image_58968.jpg" height = "60px"></footer>
+</div>
+
+<script src="assets/js/canvas.js"></script>
+<script defer src="assets/js/all.js"></script>
+</body>
+</html>
